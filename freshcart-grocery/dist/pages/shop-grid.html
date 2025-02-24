@@ -488,7 +488,9 @@
          </div>
       </nav>
    </div>
+
    <!-- Modal -->
+
    <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
          <div class="modal-content p-4">
@@ -527,90 +529,88 @@
             </div>
             <div class="modal-footer border-0 justify-content-center">
                이미 계정이 있으신가요?
-               <a href="#">로그인</a>
+               <a href="../pages/signin.html">로그인</a>
             </div>
          </div>
       </div>
    </div>
 
-	<!-- Shop Cart -->
+   <!-- Shop Cart -->
 
-	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-		<div class="offcanvas-header border-bottom">
-			<div class="text-start">
-				<h5 id="offcanvasRightLabel" class="mb-0 fs-4">장바구니</h5>
-				<small>위치 382480</small>
-			</div>
-			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-		</div>
-		<div class="offcanvas-body">
-			<div>
-				<!-- alert -->
-				<div class="alert alert-danger p-2" role="alert">
-					무료 배송이 제공됩니다.
-					<a href="#!" class="alert-link">지금 결제하세요!</a>
-				</div>
-				<ul class="list-group list-group-flush">
-					<!-- list group -->
-					<li class="list-group-item py-3 ps-0 border-top">
-						<!-- row -->
-						<div class="row align-items-center">
-							<div class="col-6 col-md-6 col-lg-7">
-								<div class="d-flex">
-									<img src="../assets/images/products/product-img-1.jpg" alt="Ecommerce"
-										class="icon-shape icon-xxl" />
-									<div class="ms-3">
-										<!-- title -->
-										<a href="../pages/shop-single.html" class="text-inherit">
-											<h6 class="mb-0">계란볶음밥</h6>
-										</a>
-										<span><small class="text-muted">백종원 레시피</small></span>
-										<!-- text -->
-										<div class="mt-2 small lh-1">
-											<a href="#!" class="text-decoration-none text-inherit">
-												<span class="me-1 align-text-bottom">
-													<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
-														viewBox="0 0 24 24" fill="none" stroke="currentColor"
-														stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-														class="feather feather-trash-2 text-success">
-														<polyline points="3 6 5 6 21 6"></polyline>
-														<path
-															d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
-														</path>
-														<line x1="10" y1="11" x2="10" y2="17"></line>
-														<line x1="14" y1="11" x2="14" y2="17"></line>
-													</svg>
-												</span>
-												<span class="text-muted">삭제</span>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- input group -->
-							<div class="col-4 col-md-3 col-lg-3">
-								<!-- input -->
-								<!-- input -->
-								<div class="input-group input-spinner">
-									<input type="button" value="-" class="button-minus btn btn-sm"
-										data-field="quantity" />
-									<input type="number" step="1" max="10" value="1" name="quantity"
-										class="quantity-field form-control-sm form-input" />
-									<input type="button" value="+" class="button-plus btn btn-sm"
-										data-field="quantity" />
-								</div>
-							</div>
-							<!-- price -->
-							<div class="col-2 text-lg-end text-start text-md-end col-md-2">
-								<span class="fw-bold text-danger">3,500￦</span>
-								<div class="text-decoration-line-through text-muted small">4,000￦</div>
-							</div>
-						</div>
-					</li>
-					<!-- list group -->
-					<!-- <li class="list-group-item py-3 ps-0"> -->
-						<!-- row -->
-						<!-- <div class="row align-items-center">
+   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header border-bottom">
+         <div class="text-start">
+            <h5 id="offcanvasRightLabel" class="mb-0 fs-4">장바구니</h5>
+            <small>위치 382480</small>
+         </div>
+         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+         <div>
+            <!-- alert -->
+            <div class="alert alert-danger p-2" role="alert">
+               무료 배송이 제공됩니다.
+               <a href="#!" class="alert-link">지금 결제하세요!</a>
+            </div>
+            <ul class="list-group list-group-flush">
+               <!-- list group -->
+               <li class="list-group-item py-3 ps-0 border-top">
+                  <!-- row -->
+                  <div class="row align-items-center">
+                     <div class="col-6 col-md-6 col-lg-7">
+                        <div class="d-flex">
+                           <img src="../assets/images/products/product-img-1.jpg" alt="Ecommerce"
+                              class="icon-shape icon-xxl" />
+                           <div class="ms-3">
+                              <!-- title -->
+                              <a href="../pages/shop-single.html" class="text-inherit">
+                                 <h6 class="mb-0">계란볶음밥</h6>
+                              </a>
+                              <span><small class="text-muted">백종원 레시피</small></span>
+                              <!-- text -->
+                              <div class="mt-2 small lh-1">
+                                 <a href="#!" class="text-decoration-none text-inherit">
+                                    <span class="me-1 align-text-bottom">
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                          stroke-linecap="round" stroke-linejoin="round"
+                                          class="feather feather-trash-2 text-success">
+                                          <polyline points="3 6 5 6 21 6"></polyline>
+                                          <path
+                                             d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                          </path>
+                                          <line x1="10" y1="11" x2="10" y2="17"></line>
+                                          <line x1="14" y1="11" x2="14" y2="17"></line>
+                                       </svg>
+                                    </span>
+                                    <span class="text-muted">삭제</span>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- input group -->
+                     <div class="col-4 col-md-3 col-lg-3">
+                        <!-- input -->
+                        <!-- input -->
+                        <div class="input-group input-spinner">
+                           <input type="button" value="-" class="button-minus btn btn-sm" data-field="quantity" />
+                           <input type="number" step="1" max="10" value="1" name="quantity"
+                              class="quantity-field form-control-sm form-input" />
+                           <input type="button" value="+" class="button-plus btn btn-sm" data-field="quantity" />
+                        </div>
+                     </div>
+                     <!-- price -->
+                     <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+                        <span class="fw-bold text-danger">3,500￦</span>
+                        <div class="text-decoration-line-through text-muted small">4,000￦</div>
+                     </div>
+                  </div>
+               </li>
+               <!-- list group -->
+               <!-- <li class="list-group-item py-3 ps-0"> -->
+               <!-- row -->
+               <!-- <div class="row align-items-center">
 							<div class="col-6 col-md-6 col-lg-7">
 								<div class="d-flex">
 									<img src="../assets/images/products/product-img-2.jpg" alt="Ecommerce"
@@ -620,8 +620,8 @@
 											<h6 class="mb-0">NutriChoice Digestive</h6>
 										</a>
 										<span><small class="text-muted">250g</small></span> -->
-										<!-- text -->
-										<!-- <div class="mt-2 small lh-1">
+               <!-- text -->
+               <!-- <div class="mt-2 small lh-1">
 											<a href="#!" class="text-decoration-none text-inherit">
 												<span class="me-1 align-text-bottom">
 													<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
@@ -643,11 +643,11 @@
 								</div>
 							</div> -->
 
-							<!-- input group -->
-							<!-- <div class="col-4 col-md-3 col-lg-3"> -->
-								<!-- input -->
-								<!-- input -->
-								<!-- <div class="input-group input-spinner">
+               <!-- input group -->
+               <!-- <div class="col-4 col-md-3 col-lg-3"> -->
+               <!-- input -->
+               <!-- input -->
+               <!-- <div class="input-group input-spinner">
 									<input type="button" value="-" class="button-minus btn btn-sm"
 										data-field="quantity" />
 									<input type="number" step="1" max="10" value="1" name="quantity"
@@ -656,29 +656,29 @@
 										data-field="quantity" />
 								</div>
 							</div> -->
-							<!-- price -->
-							<!-- <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+               <!-- price -->
+               <!-- <div class="col-2 text-lg-end text-start text-md-end col-md-2">
 								<span class="fw-bold text-danger">$20.00</span>
 								<div class="text-decoration-line-through text-muted small">$26.00</div>
 							</div>
 						</div>
 					</li> -->
-					<!-- list group -->
-					<!-- <li class="list-group-item py-3 ps-0"> -->
-						<!-- row -->
-						<!-- <div class="row align-items-center">
+               <!-- list group -->
+               <!-- <li class="list-group-item py-3 ps-0"> -->
+               <!-- row -->
+               <!-- <div class="row align-items-center">
 							<div class="col-6 col-md-6 col-lg-7">
 								<div class="d-flex">
 									<img src="../assets/images/products/product-img-3.jpg" alt="Ecommerce"
 										class="icon-shape icon-xxl" />
 									<div class="ms-3"> -->
-										<!-- title -->
-										<!-- <a href="../pages/shop-single.html" class="text-inherit">
+               <!-- title -->
+               <!-- <a href="../pages/shop-single.html" class="text-inherit">
 											<h6 class="mb-0">Cadbury 5 Star Chocolate</h6>
 										</a>
 										<span><small class="text-muted">1 kg</small></span> -->
-										<!-- text -->
-										<!-- <div class="mt-2 small lh-1">
+               <!-- text -->
+               <!-- <div class="mt-2 small lh-1">
 											<a href="#!" class="text-decoration-none text-inherit">
 												<span class="me-1 align-text-bottom">
 													<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
@@ -700,11 +700,11 @@
 								</div>
 							</div> -->
 
-							<!-- input group -->
-							<!-- <div class="col-4 col-md-3 col-lg-3"> -->
-								<!-- input -->
-								<!-- input -->
-								<!-- <div class="input-group input-spinner">
+               <!-- input group -->
+               <!-- <div class="col-4 col-md-3 col-lg-3"> -->
+               <!-- input -->
+               <!-- input -->
+               <!-- <div class="input-group input-spinner">
 									<input type="button" value="-" class="button-minus btn btn-sm"
 										data-field="quantity" />
 									<input type="number" step="1" max="10" value="1" name="quantity"
@@ -713,30 +713,30 @@
 										data-field="quantity" />
 								</div>
 							</div> -->
-							<!-- price -->
-							<!-- <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+               <!-- price -->
+               <!-- <div class="col-2 text-lg-end text-start text-md-end col-md-2">
 								<span class="fw-bold">$15.00</span>
 								<div class="text-decoration-line-through text-muted small">$20.00</div>
 							</div>
 						</div>
 					</li> -->
-					<!-- list group -->
-					<!-- <li class="list-group-item py-3 ps-0"> -->
-						<!-- row -->
-						<!-- <div class="row align-items-center">
+               <!-- list group -->
+               <!-- <li class="list-group-item py-3 ps-0"> -->
+               <!-- row -->
+               <!-- <div class="row align-items-center">
 							<div class="col-6 col-md-6 col-lg-7">
 								<div class="d-flex">
 									<img src="../assets/images/products/product-img-4.jpg" alt="Ecommerce"
 										class="icon-shape icon-xxl" />
 									<div class="ms-3"> -->
-										<!-- title -->
-										<!-- title -->
-										<!-- <a href="../pages/shop-single.html" class="text-inherit">
+               <!-- title -->
+               <!-- title -->
+               <!-- <a href="../pages/shop-single.html" class="text-inherit">
 											<h6 class="mb-0">Onion Flavour Potato</h6>
 										</a>
 										<span><small class="text-muted">250g</small></span> -->
-										<!-- text -->
-										<!-- <div class="mt-2 small lh-1">
+               <!-- text -->
+               <!-- <div class="mt-2 small lh-1">
 											<a href="#!" class="text-decoration-none text-inherit">
 												<span class="me-1 align-text-bottom">
 													<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
@@ -758,11 +758,11 @@
 								</div>
 							</div> -->
 
-							<!-- input group -->
-							<!-- <div class="col-4 col-md-3 col-lg-3"> -->
-								<!-- input -->
-								<!-- input -->
-								<!-- <div class="input-group input-spinner">
+               <!-- input group -->
+               <!-- <div class="col-4 col-md-3 col-lg-3"> -->
+               <!-- input -->
+               <!-- input -->
+               <!-- <div class="input-group input-spinner">
 									<input type="button" value="-" class="button-minus btn btn-sm"
 										data-field="quantity" />
 									<input type="number" step="1" max="10" value="1" name="quantity"
@@ -771,29 +771,29 @@
 										data-field="quantity" />
 								</div>
 							</div> -->
-							<!-- price -->
-							<!-- <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+               <!-- price -->
+               <!-- <div class="col-2 text-lg-end text-start text-md-end col-md-2">
 								<span class="fw-bold">$15.00</span>
 								<div class="text-decoration-line-through text-muted small">$20.00</div>
 							</div>
 						</div>
 					</li> -->
-					<!-- list group -->
-					<!-- <li class="list-group-item py-3 ps-0 border-bottom"> -->
-						<!-- row -->
-						<!-- <div class="row align-items-center">
+               <!-- list group -->
+               <!-- <li class="list-group-item py-3 ps-0 border-bottom"> -->
+               <!-- row -->
+               <!-- <div class="row align-items-center">
 							<div class="col-6 col-md-6 col-lg-7">
 								<div class="d-flex">
 									<img src="../assets/images/products/product-img-5.jpg" alt="Ecommerce"
 										class="icon-shape icon-xxl" />
 									<div class="ms-3"> -->
-										<!-- title -->
-										<!-- <a href="../pages/shop-single.html" class="text-inherit">
+               <!-- title -->
+               <!-- <a href="../pages/shop-single.html" class="text-inherit">
 											<h6 class="mb-0">Salted Instant Popcorn</h6>
 										</a>
 										<span><small class="text-muted">100g</small></span> -->
-										<!-- text -->
-										<!-- <div class="mt-2 small lh-1">
+               <!-- text -->
+               <!-- <div class="mt-2 small lh-1">
 											<a href="#!" class="text-decoration-none text-inherit">
 												<span class="me-1 align-text-bottom">
 													<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
@@ -813,13 +813,13 @@
 										</div>
 									</div>
 								</div> -->
-							<!-- </div> -->
+               <!-- </div> -->
 
-							<!-- input group -->
-							<div class="col-4 col-md-3 col-lg-3">
-								<!-- input -->
-								<!-- input -->
-								<!-- <div class="input-group input-spinner">
+               <!-- input group -->
+               <div class="col-4 col-md-3 col-lg-3">
+                  <!-- input -->
+                  <!-- input -->
+                  <!-- <div class="input-group input-spinner">
 									<input type="button" value="-" class="button-minus btn btn-sm"
 										data-field="quantity" />
 									<input type="number" step="1" max="10" value="1" name="quantity"
@@ -828,22 +828,22 @@
 										data-field="quantity" />
 								</div>
 							</div> -->
-							<!-- price -->
-							<!-- <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+                  <!-- price -->
+                  <!-- <div class="col-2 text-lg-end text-start text-md-end col-md-2">
 								<span class="fw-bold">$15.00</span>
 								<div class="text-decoration-line-through text-muted small">$25.00</div>
 							</div> -->
-						</div>
-					</li>
-				</ul>
-				<!-- btn -->
-				<div class="d-flex justify-content-between mt-4">
-					<a href="#!" class="btn btn-primary">계속 쇼핑하기</a>
-					<a href="#!" class="btn btn-dark">장바구니에 넣기</a>
-				</div>
-			</div>
-		</div>
-	</div>
+               </div>
+               </li>
+            </ul>
+            <!-- btn -->
+            <div class="d-flex justify-content-between mt-4">
+               <a href="#!" class="btn btn-primary">계속 쇼핑하기</a>
+               <a href="#!" class="btn btn-dark">장바구니에 넣기</a>
+            </div>
+         </div>
+      </div>
+   </div>
 
    <!-- Modal -->
    <div class="modal fade" id="locationModal" tabindex="-1" aria-labelledby="locationModalLabel" aria-hidden="true">
@@ -967,45 +967,45 @@
                            <!-- nav -->
                            <ul class="nav nav-category" id="categoryCollapseMenu">
                               <!-- <li class="nav-item border-bottom w-100"> -->
-                                 <!-- <a href="#" class="nav-link collapsed" data-bs-toggle="collapse"
+                              <!-- <a href="#" class="nav-link collapsed" data-bs-toggle="collapse"
                                     data-bs-target="#categoryFlushOne" aria-expanded="false"
                                     aria-controls="categoryFlushOne">
                                     Dairy, Bread & Eggs
                                     <i class="feather-icon icon-chevron-right"></i>
                                  </a> -->
-                                 <!-- accordion collapse -->
-                                 <!-- <div id="categoryFlushOne" class="accordion-collapse collapse"
+                              <!-- accordion collapse -->
+                              <!-- <div id="categoryFlushOne" class="accordion-collapse collapse"
                                     data-bs-parent="#categoryCollapseMenu">
                                     <div> -->
-                                       <!-- nav -->
+                              <!-- nav -->
 
-                                       <!-- <ul class="nav flex-column ms-3"> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Milk</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Milk Drinks</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Curd & Yogurt</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Eggs</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Bread</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Buns & Bakery</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Butter & More</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Cheese</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Paneer & Tofu</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Cream & Whitener</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Condensed Milk</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Vegan Drinks</a></li> -->
-                                       <!-- </ul> -->
-                                    <!-- </div>
+                              <!-- <ul class="nav flex-column ms-3"> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Milk</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Milk Drinks</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Curd & Yogurt</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Eggs</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Bread</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Buns & Bakery</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Butter & More</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Cheese</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Paneer & Tofu</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Cream & Whitener</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Condensed Milk</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Vegan Drinks</a></li> -->
+                              <!-- </ul> -->
+                              <!-- </div>
                                  </div> -->
                               <!-- </li> -->
                               <!-- nav item -->
@@ -1054,38 +1054,38 @@
                                     <i class="feather-icon icon-chevron-right"></i>
                                  </a> -->
 
-                                 <!-- collapse -->
-                                 <!-- <div id="flush-collapseThree" class="accordion-collapse collapse"
+                              <!-- collapse -->
+                              <!-- <div id="flush-collapseThree" class="accordion-collapse collapse"
                                     data-bs-parent="#categoryCollapseMenu">
                                     <div>
                                        <ul class="nav flex-column ms-3"> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link active" aria-current="page" href="#!">Fresh
                                                 Vegetables</a> -->
-                                          <!-- </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- </li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Herbs & Seasonings</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Fresh Fruits</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Organic Fruits & Vegetables</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Cuts & Sprouts</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Exotic Fruits & Veggies</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Flower Bouquets, Bunches</a>
                                           </li>
                                        </ul>
@@ -1100,31 +1100,31 @@
                                     <i class="feather-icon icon-chevron-right"></i>
                                  </a> -->
 
-                                 <!-- collapse -->
-                                 <!-- <div id="flush-collapseFour" class="accordion-collapse collapse"
+                              <!-- collapse -->
+                              <!-- <div id="flush-collapseFour" class="accordion-collapse collapse"
                                     data-bs-parent="#categoryCollapseMenu">
                                     <div>
                                        <ul class="nav flex-column ms-3"> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Soft Drinks</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Fruit Juices</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Coldpress</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Energy Drinks</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Water & Ice Cubes</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Soda & Mixers</a></li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Concentrates & Syrups</a> -->
-                                          <!-- </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Detox & Energy Drinks</a> -->
-                                          <!-- </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item"><a href="#!" class="nav-link">Juice Collection</a></li>
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Soft Drinks</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Fruit Juices</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Coldpress</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Energy Drinks</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Water & Ice Cubes</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Soda & Mixers</a></li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Concentrates & Syrups</a> -->
+                              <!-- </li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Detox & Energy Drinks</a> -->
+                              <!-- </li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item"><a href="#!" class="nav-link">Juice Collection</a></li>
                                        </ul>
                                     </div>
                                  </div>
@@ -1138,37 +1138,37 @@
                                     <i class="feather-icon icon-chevron-right"></i>
                                  </a> -->
 
-                                 <!-- collapse -->
-                                 <!-- <div id="flush-collapseFive" class="accordion-collapse collapse"
+                              <!-- collapse -->
+                              <!-- <div id="flush-collapseFive" class="accordion-collapse collapse"
                                     data-bs-parent="#categoryCollapseMenu">
                                     <div>
                                        <ul class="nav flex-column ms-3"> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link active" aria-current="page" href="#!">Batter</a> -->
-                                          <!-- </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- </li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Breakfast Cereal</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Noodles, Pasta & Soup</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Frozen Non-Veg Snackss</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Frozen Veg</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Vermicelli</a> -->
-                                          <!-- </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- </li> -->
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Instant Mixes</a>
                                           </li>
                                        </ul>
@@ -1183,41 +1183,41 @@
                                     <i class="feather-icon icon-chevron-right"></i>
                                  </a> -->
 
-                                 <!-- collapse -->
-                                 <!-- <div id="flush-collapseSix" class="accordion-collapse collapse"
+                              <!-- collapse -->
+                              <!-- <div id="flush-collapseSix" class="accordion-collapse collapse"
                                     data-bs-parent="#categoryCollapseMenu">
                                     <div>
                                        <ul class="nav flex-column ms-3"> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link active" aria-current="page" href="#!">Cookies</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Glucose & Marie</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Sweet & Salty</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Healthy & Digestive</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Cream Biscuits</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Rusks & Wafers</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Cakes & Rolls</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Buns & Bakery</a>
                                           </li>
                                        </ul>
@@ -1232,29 +1232,29 @@
                                     <i class="feather-icon icon-chevron-right"></i>
                                  </a> -->
 
-                                 <!-- collapse -->
-                                 <!-- <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                              <!-- collapse -->
+                              <!-- <div id="flush-collapseSeven" class="accordion-collapse collapse"
                                     data-bs-parent="#categoryCollapseMenu">
                                     <div>
                                        <ul class="nav flex-column ms-3"> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link active" aria-current="page" href="#!">Chicken</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Sausage, Salami & Ham</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Exotic Meat</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Eggs</a>
                                           </li> -->
-                                          <!-- nav item -->
-                                          <!-- <li class="nav-item">
+                              <!-- nav item -->
+                              <!-- <li class="nav-item">
                                              <a class="nav-link" href="#!">Frozen Non-Veg Snacks</a>
                                           </li>
                                        </ul>
@@ -1263,7 +1263,7 @@
                               </li> -->
                            </ul>
                         </div>
-                        
+
                         <div class="mb-8">
                            <h5 class="mb-3">스토어</h5>
                            <div class="my-4">
@@ -1512,8 +1512,8 @@
                               <div class="text-small mb-1">
                                  <a href="#!" class="text-decoration-none text-muted"><small>백종원 레시피</small></a>
                               </div>
-                              <h2 class="fs-6"><a href="shop-single.html"
-                                    class="text-inherit text-decoration-none">계란 볶음밥</a></h2>
+                              <h2 class="fs-6"><a href="shop-single.html" class="text-inherit text-decoration-none">계란
+                                    볶음밥</a></h2>
                               <div>
                                  <!-- rating -->
                                  <small class="text-warning">
@@ -1540,7 +1540,7 @@
                                           <line x1="12" y1="5" x2="12" y2="19"></line>
                                           <line x1="5" y1="12" x2="19" y2="12"></line>
                                        </svg>
-                                       Cart
+                                       추가
                                     </a>
                                  </div>
                               </div>
